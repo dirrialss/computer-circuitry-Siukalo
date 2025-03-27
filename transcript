@@ -1,0 +1,129 @@
+# Reading F:/modelsim/modelsim_ase/tcl/vsim/pref.tcl 
+# Loading project my_project
+project open F:/modelsim/modelsim_ase/examples/my_project
+project open F:/modelsim/modelsim_ase/examples/my_project
+project open F:/modelsim/modelsim_ase/examples/my_project
+project open F:/modelsim/modelsim_ase/examples/my_project
+vsim work.half_add
+# vsim work.half_add 
+# Loading work.half_add
+# Compile of half_adder_lab1.v was successful.
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do F:/modelsim/modelsim_ase/examples/Stim.do
+# ** Error: (vish-4008) Object 'clk' not found.
+# Error in macro F:\modelsim\modelsim_ase\examples\Stim.do line 2
+# ** Error: (vish-4008) Object 'clk' not found.
+# 
+#     while executing
+# "force clk 0 0ns, 1 {50ns} ?repeat 100ns"
+run -all
+# Break key hit 
+quit -sim
+vsim work.half_add
+# vsim work.half_add 
+# Loading work.half_add
+vsim work.half_add
+# vsim work.half_add 
+# Loading work.half_add
+vsim work.half_add
+# vsim work.half_add 
+# Loading work.half_add
+vsim work.half_add
+# vsim work.half_add 
+# Loading work.half_add
+vsim work.half_add
+# vsim work.half_add 
+# Loading work.half_add
+# Compile of half_adder_lab1.v was successful.
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do F:/modelsim/modelsim_ase/examples/Stim.do
+# ** Error: (vsim-4012) Expected ',' separator between value/time pairs.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# Error in macro F:\modelsim\modelsim_ase\examples\Stim.do line 2
+# ** Error: (vsim-4012) Expected ',' separator between value/time pairs.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+#     while executing
+# "force B 0 0ns, 1 {50ns} ?repeat 100ns"
+run -all
+quit -sim
+vsim -t ns work.half_add
+# vsim -t ns work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do F:/modelsim/modelsim_ase/examples/Stim.do
+# ** Error: (vsim-4012) Expected ',' separator between value/time pairs.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# Error in macro F:\modelsim\modelsim_ase\examples\Stim.do line 2
+# ** Error: (vsim-4012) Expected ',' separator between value/time pairs.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+#     while executing
+# "force B 0 0ns, 1 {50ns} ?repeat 100ns"
+run -all
+# WARNING: No extended dataflow License exists
+quit -sim
+# Compile of half_adder_lab1.v was successful.
+vsim -t ns work.half_add
+# vsim -t ns work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do F:/modelsim/modelsim_ase/examples/Stim.do
+run -all
+quit -sim
+# Compile of half_adder_lab1.v was successful.
+# Compile of half_adder_lab1.v was successful.
+vsim -t ns work.half_add
+# vsim -t ns work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do F:/modelsim/modelsim_ase/examples/Stim.do
+run -continue
+run -all
+# Break key hit 
+# Simulation stop requested.
+quit -sim
+# Compile of half_adder_lab1.v was successful.
+vsim -t ns work.half_add
+# vsim -t ns work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do F:/modelsim/modelsim_ase/examples/Stim.do
+run -all
+add wave sim:/half_add/*
+# Break key hit 
+# Break in Module half_add at F:/modelsim/modelsim_ase/examples/half_adder_lab1.v line 11
+add wave sim:/half_add/*
+do F:/modelsim/modelsim_ase/examples/Stim.do
+# ** Error: (vish-4008) Object 'A' not found.
+# Error in macro F:\modelsim\modelsim_ase\examples\Stim.do line 1
+# ** Error: (vish-4008) Object 'A' not found.
+# 
+#     while executing
+# "force A 0 0ns, 1 25ns, 1 50ns, 1 75ns -repeat 150ns"
+run -all
+add wave sim:/half_add/*
+# Break key hit 
+# Break in Module half_add at F:/modelsim/modelsim_ase/examples/half_adder_lab1.v line 12
+quit -sim
+# Compile of half_adder_lab1.v was successful.
+vsim -t ns work.half_add
+# vsim -t ns work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do F:/modelsim/modelsim_ase/examples/Stim.do
+run -all
+# Break key hit 
+# Break in Module half_add at F:/modelsim/modelsim_ase/examples/half_adder_lab1.v line 11
+quit -sim
+# Compile of half_adder_lab1.v was successful.
+vsim -t ns work.half_add
+# vsim -t ns work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do F:/modelsim/modelsim_ase/examples/Stim.do
+run -all
